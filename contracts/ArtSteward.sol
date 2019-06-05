@@ -1,8 +1,8 @@
 pragma solidity ^0.5.0;
-import "./interfaces/IERC721Full.sol";
-import "./utils/SafeMath.sol";
+import "./IERC721Full.sol";
+import "./SafeMath.sol";
 
-contract ArtSteward {
+contract Advertisement {
     
     /*
     This smart contract collects patronage from current owner through a Harberger tax model and 
@@ -18,12 +18,13 @@ contract ArtSteward {
     
     uint256 public price; //in wei
     IERC721Full public art; // ERC721 NFT.
+    string public artName;
     
     uint256 public totalCollected; // all patronage ever collected
     uint256 public currentCollected; // amount currently collected for patron  
     uint256 public timeLastCollected; // 
     uint256 public deposit;
-    address payable public artist;
+    address  payable public artist;
     uint256 public artistFund;
     
     mapping (address => bool) public patrons;
@@ -48,6 +49,7 @@ contract ArtSteward {
 
     event LogBuy(address indexed owner, uint256 indexed price);
     event LogPriceChange(uint256 indexed newPrice);
+    event LogNameChange(string newName);
     event LogForeclosure(address indexed prevOwner);
     event LogCollection(uint256 indexed collected);
     
@@ -135,7 +137,7 @@ contract ArtSteward {
         deposit = deposit.add(msg.value);
     }
     
-    function buy(uint256 _newPrice) public payable collectPatronage {
+    function buy(uint256 _newPrice,string memory _artName) public payable collectPatronage {
         require(_newPrice > 0, "Price is zero");
         require(msg.value > price, "Not enough"); // >, coz need to have at least something for deposit
         address currentOwner = art.ownerOf(42);
@@ -155,7 +157,7 @@ contract ArtSteward {
         }
         
         deposit = msg.value.sub(price);
-        transferArtworkTo(currentOwner, msg.sender, _newPrice);
+        transferArtworkTo(currentOwner, msg.sender, _newPrice,_artName);
         emit LogBuy(msg.sender, _newPrice);
     }
 
@@ -165,6 +167,11 @@ contract ArtSteward {
         
         price = _newPrice;
         emit LogPriceChange(price);
+    }
+    function changeName(string memory _newName) public onlyPatron collectPatronage {
+        require(state != StewardState.Foreclosed, "Foreclosed");
+        artName = _newName;
+        emit LogNameChange(artName);
     }
     
     function withdrawDeposit(uint256 _wei) public onlyPatron collectPatronage returns (uint256) {
@@ -198,20 +205,21 @@ contract ArtSteward {
     function _foreclose() internal {
         // become steward of artwork (aka foreclose)
         address currentOwner = art.ownerOf(42);
-        transferArtworkTo(currentOwner, address(this), 0);
+        transferArtworkTo(currentOwner, address(this), 0,'');
         state = StewardState.Foreclosed;
         currentCollected = 0;
 
         emit LogForeclosure(currentOwner);
     }
 
-    function transferArtworkTo(address _currentOwner, address _newOwner, uint256 _newPrice) internal {
+    function transferArtworkTo(address _currentOwner, address _newOwner, uint256 _newPrice,string memory _artNames) internal {
         // note: it would also tabulate time held in stewardship by smart contract
         timeHeld[_currentOwner] = timeHeld[_currentOwner].add((timeLastCollected.sub(timeAcquired)));
         
         art.transferFrom(_currentOwner, _newOwner, 42);
 
         price = _newPrice;
+        artName = _artNames;
         timeAcquired = now;
         patrons[_newOwner] = true;
     }
