@@ -1,5 +1,9 @@
 ## 一块广告牌 An Advertisement Board
 
+*一块广告牌————二十一世纪的共享广播站*
+by Mable 
+June 5, 2019
+
 之前海外有一个关于哈勃格税（Harberger Tax）的实验项目，叫[《此艺术品永远出售》（This Art is Always on Sale）](https://thisartworkisalwaysonsale.com/)，是由一个数字艺术家为一个代表“this art is always on sale”这段文字的条形码所制成的数码艺术提供的竞拍和艺术家征税平台。参与竞拍的人需要支付上一任拥有者所给出的标价，标出卖给下一任买家的价格，并往项目里另外预存入一定数额的押金用于之后的税款支付（标出价格的5%）。当押金余额不足以支付项目的税款时，智能合约会强制赎回艺术品，此时由于没有下一任买家，价格归零，重新开始。项目的主旨是对哈勃格税对物权与社会关系（艺术、艺术家与购买者之间）的影响进行探索。
 
 艺术家征税？这个概念听起来感觉不太好理解，那么让我们先从哈勃格税开始。
@@ -52,3 +56,131 @@
 请开始你的表演。
 
 **项目特别鸣谢：程序员 Mino**
+
+
+*用哈勃格税卖广告，我们迈除了网站token化的第一步*
+
+by Nick
+June 27, 2019
+原文链接（含图）：https://mp.weixin.qq.com/s/L162MmrXQModSW3uJA7RiA
+
+
+去年4月，以太坊创始人V神(Vitalik Buterin) 在个人博客中深度探讨了一个叫做“哈伯格税（Harberger taxes）”的经济理论。
+
+他认为该理论“是对政治经济学的另一种新奇又有趣的解读”，并且可以和区块链的通证设计有着很好的结合。
+
+那么哈勃格税究竟是什么？这个税的核心规则有两点：
+
+1. 为私人拥有的财产公开一个标价，并每年提交根据该估价某个百分比的税；
+
+2. 市场上的任何人都可以按该公开标价从你手中购买该财产。
+
+
+其核心的制衡因素在于：
+
+标价开高了，交税要交更多；
+开低了，别人可以轻易买走你的财产。
+
+这两点迫使每个理性人（假设你不想多交税，假设你不想被人轻易买走）趋向合理范围估价。
+
+听起来似乎简单，在实践中会有价值无法直观体现等重重困难。但这一概念激起了很大范围的讨论，也有人开始进行各种各样的实践。
+
+01
+
+去年9月，V神和哈佛大学Zoë Hitzig及《Radical Markets》一书作者Glen Weyl共同撰写了论文《自由激进主义:社会基于社群中立的正式规则》，进一步探讨哈伯格税的应用。
+
+今年3月，南非数字艺术家Simon de la Rouviere 基于哈勃格税的理念和以太坊，以ERC 721的形式做了一个数字艺术品，意在探索哈勃格税在艺术领域的应用。
+网址：https://thisartworkisalwaysonsale.com/
+
+该艺术品目前的价格已经升至240以太坊（约50万元人民币）。
+
+这个月初，BES (beslab.xyz）区块链实验室分叉了该项目，将Harberger税应用到“线上广告”这一资产类别上，并在经济机制，应用场景，社区治理形式上做了进一步的创新，项目名为“一块广告牌”。
+
+“一块广告牌”上线后，短短几天时间里，就被换手多次，内容大多是对某个人的祝福。被祝福的人包括BES 创始人Jade、DappReview 创始人 Vincent、链圈斯嘉丽等等，很是温馨和逗趣。
+  
+02
+  
+“一块广告牌”这个有趣的DApp（去中心化应用）对我来说犹如一股清流，在浮躁的币圈不断的带来小温馨小快乐。
+
+《Radical Markets》作者Glen、数字艺术家Simon等海外学者，也在持续的关注这个有趣的小实验。
+
+
+   
+
+
+广告牌用于个人情感的表达固然颇有行为艺术的感觉，这也同时这也启发我去思考物权、使用权与社会关系的影响。
+
+基于哈勃格税的广告牌设计有没有可能被用于商业项目？
+
+网站的广告位该如何定价？
+
+目前一对一商务接洽售卖的方式是否最有效率？
+
+有没有可能借助哈伯格税以一种全新的方式售卖或出租网站广告位？
+
+网站价值该如何评估？是否可以被token化？
+
+想了很久，我发现这些问题光靠想是想不明白的。
+
+山不过来，我就过去。
+既然没有人去实践，那我们就自己来。
+
+03
+
+我们买下了这块广告牌的所有权，并通过我们DOGIgames.com的网站给这个广告牌赋予价值：
+
+具体玩法如下：
+
+1、我们把网站左侧的展示空间留给“一块广告牌”网站。
+ 
+2、在“一块广告牌”网站上购买该广告牌的玩家，可以获得在DOGIgames.com网站首页广告展示的服务，广告展示至2019年7月31日。
+
+点击阅读原文或访问以下网站，均可到达访问网站：
+http://anadvertisementboard.com/#/main
+
+3、购买该广告牌后，你可以随意将该广告牌以任何价格进行出售或转让，但转让后广告展示时间不变。
+
+4、请购得广告牌的广告主联系我们，以更新在DOGIgames.com网站上展示框的内容，刊登内容需符合相关国家的法律法规。
+
+5、广告牌的初始价格为2.5ETH，购买后可以随意修改价格。
+
+6、如需帮助请随时联系我们。
+
+在文章发出前我们得到了一个意外惊喜，在我们推出这个玩法之后，《Radical Markets》作者Glen在Twitter上做了回复：
+
+
+
+很高兴能参与到这样一场关于哈勃格税的社会实验，并与我们DOGIgame.com的自身媒体属性找到了一个很好的契合点，未来这场实验将会如何推进，我们会进行持续的跟踪和报导，请继续关注。
+
+
+文章里涉及的一些参考资料及其他与哈勃格税相关的资料：
+
+1、论文链接：
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656
+2、V神medium发文： 
+https://medium.com/@VitalikButerin/liberation-through-radical-decentralization-22fc4bedc2ac
+3、橙皮书上亦有中文翻译和很多很好的讨论
+https://orange.xyz/tag/5
+4、一块广告牌网站地址：
+http://anadvertisementboard.com/#/main
+5、GitHub：
+https://github.com/anadvertisementboard/anadvertisementboard
+6、微信文章：
+Mable 2019 <一块广告牌——二十一世纪的共享广播站？>, 
+https://mp.weixin.qq.com/s/NCjncWZAMEn-lljXKRMM6w
+7、Harberger Tax卖艺术品：
+https://thisartworkisalwaysonsale.com/
+8、卖艺术品的medium：
+https://medium.com/@simondlr/this-artwork-is-always-on-sale-92a7d0c67f43
+9、卖艺术品的GitHub：
+https://github.com/simondlr/thisartworkisalwaysonsale
+10、橙皮书相关文章：
+https://orange.xyz/tag/5
+11、Vitalik Buterin 关于Radical Markets 和Harberger taxes 的介绍：
+ Vitalik  2018, ‘On Radical Markets’  Vitalik Buterin's website, 
+https://vitalik.ca/general/2018/04/20/rad ical_markets .html
+12、Harberger Tax和Radical Markets的书：
+Eric A. Posner & E. Glen Weyl 2018, <Radical Markets: Uprooting Capitalism and Democracy for a Just Society>, Princeton University Press, 
+https://www.amazon.com/Radical-Markets-Uprooting-Capitalism-Democracy/dp/0691177503
+
+
