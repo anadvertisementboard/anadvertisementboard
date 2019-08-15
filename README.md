@@ -1,7 +1,7 @@
 ## 一块广告牌 An Advertisement Board
 
 ***关于本实验背景的一点简单介绍***
-https://docs.google.com/document/d/1UeqzCrml9HQFg7eK8k1xcTtB_SKRSecnR9SkZcp0JTo/edit#heading=h.zf5g47c7v54z
+https://docs.google.com/document/d/1UeqzCrml9HQFg7eK8k1xcTtB_SKRSecnR9SkZcp0JTo/edit?usp=sharing
 
 ***一块广告牌————二十一世纪的共享广播站***
 
@@ -194,7 +194,7 @@ https://www.amazon.com/Radical-Markets-Uprooting-Capitalism-Democracy/dp/0691177
 
 我们把围绕广告牌的每一次讨论记录在了google文档上，方便开源社区随时翻阅+评论：
 
-https://docs.google.com/document/d/1rl9alCS56aZRf0ouc4fWKJXmUsgSA9s3Sz6iM6peyrk/edit
+https://docs.google.com/document/d/1rl9alCS56aZRf0ouc4fWKJXmUsgSA9s3Sz6iM6peyrk/edit?usp=sharing
 
 
 ---------------------------------------------------------
