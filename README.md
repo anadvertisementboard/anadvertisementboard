@@ -1,5 +1,8 @@
 ## 一块广告牌 An Advertisement Board
 
+***关于本实验背景的一点简单介绍***
+https://docs.google.com/document/d/1UeqzCrml9HQFg7eK8k1xcTtB_SKRSecnR9SkZcp0JTo/edit#heading=h.zf5g47c7v54z
+
 ***一块广告牌————二十一世纪的共享广播站***
 
 by Mable Jiang
