@@ -189,7 +189,7 @@ https://www.amazon.com/Radical-Markets-Uprooting-Capitalism-Democracy/dp/0691177
 ---------------------------------------------------------
 ***广告牌进度讨论会议笔记***
 
-我们把广告牌的每一次迭代记录在了google文档上，方便开源社区随时翻阅+评论：
+我们把围绕广告牌的每一次讨论记录在了google文档上，方便开源社区随时翻阅+评论：
 
 https://docs.google.com/document/d/1rl9alCS56aZRf0ouc4fWKJXmUsgSA9s3Sz6iM6peyrk/edit
 
