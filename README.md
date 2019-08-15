@@ -149,6 +149,7 @@ http://anadvertisementboard.com/#/main
 6、如需帮助请随时联系我们。
 
 在文章发出前我们得到了一个意外惊喜，在我们推出这个玩法之后，《Radical Markets》作者Glen在Twitter上做了回复：
+https://twitter.com/glenweyl/status/1143873343923400704
 
 很高兴能参与到这样一场关于哈勃格税的社会实验，并与我们DOGIgame.com的自身媒体属性找到了一个很好的契合点，未来这场实验将会如何推进，我们会进行持续的跟踪和报导，请继续关注。
 
@@ -182,5 +183,14 @@ https://vitalik.ca/general/2018/04/20/rad ical_markets .html
 12、Harberger Tax和Radical Markets的书：
 Eric A. Posner & E. Glen Weyl 2018, <Radical Markets: Uprooting Capitalism and Democracy for a Just Society>, Princeton University Press, 
 https://www.amazon.com/Radical-Markets-Uprooting-Capitalism-Democracy/dp/0691177503
+
+
+
+---------------------------------------------------------
+***广告牌进度讨论会议笔记***
+
+我们把广告牌的每一次迭代记录在了google文档上，方便开源社区随时翻阅+评论：
+
+https://docs.google.com/document/d/1rl9alCS56aZRf0ouc4fWKJXmUsgSA9s3Sz6iM6peyrk/edit
 
 
