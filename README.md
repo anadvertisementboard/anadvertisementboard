@@ -161,29 +161,38 @@ https://twitter.com/glenweyl/status/1143873343923400704
 
 1、论文链接：
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656
+
 2、V神medium发文： 
 https://medium.com/@VitalikButerin/liberation-through-radical-decentralization-22fc4bedc2ac
+
 3、橙皮书上亦有中文翻译和很多很好的讨论
 https://orange.xyz/tag/5
+
 4、一块广告牌网站地址：
 http://anadvertisementboard.com/#/main
+
 5、GitHub：
 https://github.com/anadvertisementboard/anadvertisementboard
+
 6、微信文章：
 Mable 2019 <一块广告牌——二十一世纪的共享广播站？>, 
 https://mp.weixin.qq.com/s/NCjncWZAMEn-lljXKRMM6w
+
 7、Harberger Tax卖艺术品：
 https://thisartworkisalwaysonsale.com/
-8、卖艺术品的medium：
+
+8、This Artwork is Always on Sale 的medium：
 https://medium.com/@simondlr/this-artwork-is-always-on-sale-92a7d0c67f43
-9、卖艺术品的GitHub：
+
+9、This Artwork is Always on Sale 的GitHub：
 https://github.com/simondlr/thisartworkisalwaysonsale
-10、橙皮书相关文章：
-https://orange.xyz/tag/5
-11、Vitalik Buterin 关于Radical Markets 和Harberger taxes 的介绍：
+
+10、Vitalik Buterin 关于Radical Markets 和Harberger taxes 的介绍：
+
  Vitalik  2018, ‘On Radical Markets’  Vitalik Buterin's website, 
-https://vitalik.ca/general/2018/04/20/rad ical_markets .html
-12、Harberger Tax和Radical Markets的书：
+https://vitalik.ca/general/2018/04/20/radical_markets.html
+
+11、Harberger Tax和Radical Markets的书：
 Eric A. Posner & E. Glen Weyl 2018, <Radical Markets: Uprooting Capitalism and Democracy for a Just Society>, Princeton University Press, 
 https://www.amazon.com/Radical-Markets-Uprooting-Capitalism-Democracy/dp/0691177503
 
@@ -205,9 +214,11 @@ https://docs.google.com/document/d/1rl9alCS56aZRf0ouc4fWKJXmUsgSA9s3Sz6iM6peyrk/
 **Blockchain Economics Studio （BES）** 是一个专注于发现和构建区块链科技未来经济的工作室。我们同创业者、开发者、投资人一起合作从零开始孵化产品或服务。 目前项目包括虚拟货币资产管理平台、虚拟机构交易终端、非可替代性资产、PoC 共识协议以及区块链应用程序等。 我们的研究重点主要在区块链世界的新经济模型。 我们相信区块链会成为数字时代，人与机器新型合作的支柱产业，我们也希望能够连结人们及他们的创意来实现这一目标。
 
 网站：https://beslab.xyz/
+
 twitter：https://twitter.com/BES_zen
 
 **DOGIgames是一家专注区块链游戏的媒体。**我们认为区块链将对游戏带来深远的变革。虽然我们无法预测这种变革发生的具体时间，但我们相信他必将发生。DOGIgames愿意发掘并传播全球区块链游戏从业者在推动变革的洞见、创新、探索、成功和以及失败。DOGIgames也致力将中国区块链游戏行业的进展传播到全球各个角落。
+
 网站：https://www.dogigames.com/
 
 **本项目早期贡献者包括：**
