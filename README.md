@@ -51,7 +51,7 @@ June 5, 2019
 技术层面上来讲，本作品运用了以太坊智能合约技术,是开源的，它选择了适当的通证标准ERC721来展示和确权。广告牌的名称叫 advertisement，简称ADS。
 
 你可以在如下网址随意产生本项目的分叉和创造你自己版本的广告牌：
-<https://github.com/anadvertisementboard/anadvertisementboard>
+https://github.com/BlockchainEconomicsStudio/anadvertisementboard
 
 给这个作品提供灵感的原《此艺术品永远出售》GitHub 地址：
 <https://github.com/simondlr/thisartworkisalwaysonsale>。
