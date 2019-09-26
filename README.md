@@ -1,6 +1,7 @@
 ## 一块广告牌 An Advertisement Board
 
-***关于本实验背景的一点简单介绍***
+***关于本实验背景的一点简单介绍*** ***About this Experiment***
+
 https://docs.google.com/document/d/1UeqzCrml9HQFg7eK8k1xcTtB_SKRSecnR9SkZcp0JTo/edit?usp=sharing
 
 ***一块广告牌————二十一世纪的共享广播站***
@@ -221,7 +222,7 @@ twitter：https://twitter.com/BES_zen
 
 网站：https://www.dogigames.com/
 
-**本项目早期贡献者包括：**
+**本项目早期贡献者 Early Contributors of this Project **
 
 Jade - 连续创业者，建立 BES 的目的是连接区块链技术与现实价值。坚信问题比答案更重要，希望以独立开源组织的形式推动自己关心问题的解决。热爱哲学，统计学，神经科学，人工智能，长年瑜伽及冥想。（<https://github.com/yujadehou>）
 
