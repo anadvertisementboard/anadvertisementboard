@@ -1,0 +1,104 @@
+@import './util';
+@import './app';
+
+.container-outer {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-inner {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  align-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.title {
+  width: 100%;
+  padding-top: 64px;
+  height: 200px;
+  background-image: linear-gradient(303deg, rgba(103, 238, 250, 0), rgba(28, 119, 247, 0.7));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-family: Gotham, "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    color: #fdfdfd;
+  }
+}
+
+.main-content-container {
+  background-image: linear-gradient(152deg, #f9fbff, #ddeaff 43%, rgba(221, 234, 255, 0));
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  .content {
+    max-width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 24px;
+    grid-template-areas: "s1 s2" "l1 l1" "l2 l2";
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .short-content-1, .short-content-2, .long-content-1, .long-content-2 {
+    background-color: #fdfdfd;
+    font-family: Gotham, "PingFang SC", "Microsoft YaHei", sans-serif;
+    padding: 40px 48px 48px 48px;
+    h3, h4, p {
+      margin: 0;
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #294b89;
+      margin-bottom: 16px;
+    }
+    p, h4 {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #505660;
+    }
+    h4 {
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+  }
+  .short-content-1 {
+    grid-area: s1;
+  }
+  .short-content-2 {
+    grid-area: s2;
+  }
+  .long-content-1 {
+    grid-area: l1;
+    > div {
+      margin-bottom: 40px;
+    }
+    .note {
+      font-size: 16px;
+      color: #505660;
+    }
+  }
+  .long-content-2 {
+    grid-area: l2;
+  }
+  @include md-rd-480() {
+    .content {
+      padding-left: 16px;
+      padding-right: 16px;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      grid-template-areas: "s1" "s2" "l1" "l2";
+    }
+  }
+}
